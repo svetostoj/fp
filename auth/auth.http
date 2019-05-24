@@ -1,0 +1,16 @@
+POST http://localhost:3090/auth/signup
+Content-Type: application/json 
+
+{
+  "email": "sveto3@example.com",
+  "password": "password"
+}
+
+###
+POST http://localhost:3090/auth/signin
+Content-Type: application/json 
+
+{
+  "email": "sveto3@example.com",
+  "password": "password"
+}

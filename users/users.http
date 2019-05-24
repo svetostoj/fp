@@ -1,0 +1,20 @@
+
+###
+POST http://localhost:3090/users/new
+Content-Type: application/json 
+
+{
+  "email": "sveto2@example.com",
+  "password": "password"
+}
+
+###
+
+GET  http://localhost:3090/users/all
+Content-Type: application/json
+
+
+###
+GET  http://localhost:3090/users/all
+Content-Type: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1Y2U3NTVkZmI5ZjA0MzA1NjYxODUzYTEiLCJpYXQiOjE1NTg2NjY4OTkzOTd9.hUvNTD6sX9XsbM8pcj28vV6fBvWF85jZTLIWYpAx4po
